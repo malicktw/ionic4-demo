@@ -18,6 +18,8 @@ Get Ionic DevApp for easy device testing
 https://ionicframework.com/docs/appflow/devapp
 Speed up development with the Ionic DevApp, our fast, on-device testing mobile app.
 
+Photo galery official tutorial
+https://ionicframework.com/docs/developer-resources/guides/first-app-v4/intro/
 
 # Setup & install
 
@@ -67,7 +69,7 @@ ionic login
        - Push your code to Ionic Appflow to perform real-time updates, and more: git push ionic master
 
 
-# Starting an App
+## Starting an App
 
 https://ionicframework.com/docs/building/starting
 
@@ -75,7 +77,7 @@ https://ionicframework.com/docs/building/starting
 $ ionic start myApp tabs --type=angular
 ```
 
-# Running your app
+## Running your app
 
 ### Testing in a browser
 Now, you can cd into the folder that was created. Much of your app can be built right in the browser with ionic serve. We recommend starting with this workflow.
@@ -87,7 +89,7 @@ ionic serve
 
 To end ionic serve use Control + C.
 
-### Deploy to a device using Ionic DevApp
+## Deploy to a device using Ionic DevApp
 
 DevApp offers a realtime view of changes as they're being made, with a rich library of pre-installed native plugins to test native features of the app.
 
@@ -102,7 +104,7 @@ https://play.google.com/store/apps/details?id=io.ionic.devapp&hl=en
 With DevApp installed, sign up or login in to an Ionic Account.
 
 
-# Push builds
+## Push builds
 
 Push your code to Ionic Appflow to perform real-time updates, and more. Navigate to the root of your app’s source code and
 
@@ -117,3 +119,4 @@ Or if you’ve chosen to use a third party git host such as GitHub run:
 ```
 git push origin master
 ```
+
