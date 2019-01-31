@@ -1,6 +1,8 @@
 {
   "name": "myIonicApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "05797d53"
 }
