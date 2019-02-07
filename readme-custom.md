@@ -4,6 +4,9 @@ Welcome to Ionic
 
 Repo guide to learn and experiment install, create, and run an Ionic app.
 
+Photo galery official tutorial
+https://ionicframework.com/docs/developer-resources/guides/first-app-v4/intro/
+
 # doc 
 
 Framework documentation
@@ -17,9 +20,6 @@ Documentation for Ionic Appflow platform services.
 Get Ionic DevApp for easy device testing
 https://ionicframework.com/docs/appflow/devapp
 Speed up development with the Ionic DevApp, our fast, on-device testing mobile app.
-
-Photo galery official tutorial
-https://ionicframework.com/docs/developer-resources/guides/first-app-v4/intro/
 
 # Setup & install
 
