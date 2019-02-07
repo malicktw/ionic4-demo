@@ -91,6 +91,8 @@ To end ionic serve use Control + C.
 
 ## Deploy to a device using Ionic DevApp
 
+`ionic serve -c`
+
 DevApp offers a realtime view of changes as they're being made, with a rich library of pre-installed native plugins to test native features of the app.
 
 There’s no need to install complicated Native SDKs - all it takes is one simple command, ionic serve, and apps running anywhere DevApp is installed will be immediately available to preivew, with LiveReload to refresh changes as soon as they’re made.
