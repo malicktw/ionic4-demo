@@ -86,10 +86,10 @@
     <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
         <string>Used to take pictures</string>
     </edit-config>
-    <engine name="ios" spec="~4.5.5" />
-    <engine name="android" spec="~7.1.4" />
     <plugin name="cordova-sqlite-storage" spec="3.0.0" />
     <plugin name="cordova-plugin-telerik-imagepicker" spec="2.2.3">
         <variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value=" " />
     </plugin>
+    <engine name="ios" spec="4.5.5" />
+    <engine name="android" spec="7.1.4" />
 </widget>

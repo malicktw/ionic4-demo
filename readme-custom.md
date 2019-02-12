@@ -105,6 +105,10 @@ https://play.google.com/store/apps/details?id=io.ionic.devapp&hl=en
 
 With DevApp installed, sign up or login in to an Ionic Account.
 
+## info
+
+ionic info output
+
 
 ## Push builds
 
@@ -121,4 +125,30 @@ Or if you’ve chosen to use a third party git host such as GitHub run:
 ```
 git push origin master
 ```
+## Package - Build Your Android Debug APK
 
+https://ionicframework.com/docs/cli/commands/cordova-build/
+
+ionic build --platform=android
+
+`ionic cordova platform add android`
+`ionic cordova build android --debug`
+
+emulate
+
+`ionic cordova emulate android`
+
+
+# plugin 
+
+* Camera | https://ionicframework.com/docs/native/camera/
+  
+* Image picker | https://ionicframework.com/docs/native/image-picker/
+
+# TODO
+
+* https://www.c-sharpcorner.com/article/how-to-load-multiple-images-using-native-image-picker-in-ionic-3/
+
+# NOTES
+
+* Cordova plugins are not available when running the app in the browser with ionic serve. In order to be able to use the Cordova plugins, you’d need to run the app on a simulator / real device.
