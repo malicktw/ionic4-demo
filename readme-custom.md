@@ -79,6 +79,18 @@ $ ionic start myApp tabs --type=angular
 
 ## Running your app
 
+### Configure project
+
+1) you have to clone the project first.
+    
+    
+2) Once cloned, configure the rest of the project using following commands:
+
+```
+npm install
+ionic cordova platform add android
+```
+    
 ### Testing in a browser
 Now, you can cd into the folder that was created. Much of your app can be built right in the browser with ionic serve. We recommend starting with this workflow.
 
@@ -89,7 +101,34 @@ ionic serve
 
 To end ionic serve use Control + C.
 
-## Deploy to a device using Ionic DevApp
+### Run on device
+
+NB : 
+* Ensure that Developer mode is enabled on your Android device and USB Debugging is activated.
+* Connect your Android phone via USB to your computer and run. 
+* Ensure your Dev workstation and your device is connected to same network
+
+To check list of connected device, run adb from your adapted sdk path :
+```
+cd C:\Users\diop-\AppData\Local\Android\Sdk\platform-tools && adb devices
+```
+
+Then Run the following command
+```
+ionic cordova run android --device  --livereload
+```
+
+if issue happened : 
+```
+ionic cordova platform rm android
+ionic cordova platform add android
+```
+
+To Inspect your app in chrome, go to the following url and select your connected devices
+
+    chrome://inspect/#devices
+
+### Deploy to a device using Ionic DevApp
 
 `ionic serve -c`
 
