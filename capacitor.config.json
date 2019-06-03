@@ -1,0 +1,7 @@
+{
+  "appId": "io.citizendiop.demo",
+  "appName": "ionicDemo",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

@@ -101,7 +101,7 @@ ionic serve
 
 To end ionic serve use Control + C.
 
-### Run on device
+### Run on device with cordova
 
 NB : 
 * Ensure that Developer mode is enabled on your Android device and USB Debugging is activated.
@@ -115,7 +115,7 @@ cd C:\Users\diop-\AppData\Local\Android\Sdk\platform-tools && adb devices
 
 Then Run the following command
 ```
-ionic cordova run android --device  --livereload
+ionic cordova run android --device --livereload
 ```
 
 if issue happened : 
@@ -125,8 +125,17 @@ ionic cordova platform add android
 ```
 
 To Inspect your app in chrome, go to the following url and select your connected devices
+https://ionicframework.com/docs/building/android#using-chrome-devtools
 
     chrome://inspect/#devices
+    
+### Run on device with capacitor
+https://ionicframework.com/docs/building/android#running-with-capacitor
+
+```
+ionic capacitor add android
+ionic capacitor copy android
+```
 
 ### Deploy to a device using Ionic DevApp
 
@@ -170,13 +179,29 @@ https://ionicframework.com/docs/cli/commands/cordova-build/
 
 ionic build --platform=android
 
-`ionic cordova platform add android`
-`ionic cordova build android --debug`
+```
+ionic cordova platform add android
+ionic cordova build android --debug
+```
 
 emulate
 
 `ionic cordova emulate android`
 
+## Capacitor
+existing app 
+
+install capacitor package to-an-existing app
+
+```
+cd ionic4-demo
+npm install --save @capacitor/core @capacitor/cli
+ionic integrations enable capacitor
+npx cap init ionicdemo io.citizendiop.demo
+ionic build
+npx cap add android
+npx cap sync
+```
 
 # plugin 
 
@@ -191,3 +216,17 @@ emulate
 # NOTES
 
 * Cordova plugins are not available when running the app in the browser with ionic serve. In order to be able to use the Cordova plugins, you’d need to run the app on a simulator / real device.
+
+## Docs
+
+* Migration strategy
+https://capacitor.ionicframework.com/docs/cordova/migration-strategy/
+
+* existing-ionic-project
+https://capacitor.ionicframework.com/docs/getting-started/with-ionic/#existing-ionic-project
+
+https://blog.ionicframework.com/announcing-capacitor-1-0/
+
+## Resource
+
+

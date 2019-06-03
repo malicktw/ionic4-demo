@@ -19,6 +19,10 @@ export class AppComponent {
 
   initializeApp() {
     this.platform.ready().then(() => {
+
+      // Okay, so the platform is ready and our plugins are available.
+      console.log('plateform ready');
+
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
