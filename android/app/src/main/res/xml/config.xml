@@ -17,6 +17,11 @@
   </feature>
 
 
+  <feature name="NativeTimer">
+    <param name="android-package" value="com.applurk.nativetimer.NativeTimerPlugin"/>
+  </feature>
+
+
   <feature name="Whitelist">
     <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin"/>
     <param name="onload" value="true"/>

@@ -18,6 +18,8 @@ export class AppComponent {
   }
 
   initializeApp() {
+    // TODO delete, not needed i capacitor
+    // https://blog.ionicframework.com/announcing-capacitor-1-0/ | no more deviceready
     this.platform.ready().then(() => {
 
       // Okay, so the platform is ready and our plugins are available.

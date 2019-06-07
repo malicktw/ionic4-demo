@@ -12,9 +12,11 @@ npm install @ionic-native/camera@4.20.0
 ```
 https://stackoverflow.com/questions/54381062/camera-getpicture-is-not-a-function-in-ionic-3
 
-- [ ] Move to capacitor
-    - replace spash screen
-    - cordova and capacitor cohabitation | add camera version of capacitor
+- [ ] Move to capacitor 
+    - [ ] 
+    - [ ] https://capacitor.ionicframework.com/docs/guides/push-notifications-firebase
+    - [ ] replace spash screen
+    - [ ] cordova and capacitor cohabitation | add camera version of capacitor | https://capacitor.ionicframework.com/docs/guides/ionic-framework-app/
     - [ ] remove cordova plugin
 - [ ] rename 'page' file to angular components naming (https://angular.io/guide/styleguide)
 - [ ] build destop app with electron

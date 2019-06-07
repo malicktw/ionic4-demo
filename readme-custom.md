@@ -129,13 +129,6 @@ https://ionicframework.com/docs/building/android#using-chrome-devtools
 
     chrome://inspect/#devices
     
-### Run on device with capacitor
-https://ionicframework.com/docs/building/android#running-with-capacitor
-
-```
-ionic capacitor add android
-ionic capacitor copy android
-```
 
 ### Deploy to a device using Ionic DevApp
 
@@ -203,6 +196,23 @@ npx cap add android
 npx cap sync
 ```
 
+### Run on device with capacitor
+https://ionicframework.com/docs/building/android#running-with-capacitor
+
+```
+ionic build
+npx cap copy android
+npx cap open android
+```
+
+In Android Studio, click the Run button and then select the target simulator or device.
+
+# install plugin
+https://capacitor.ionicframework.com/docs/cordova/using-cordova-plugins
+
+npm i cordova-plugin-timer
+npx cap sync
+
 # plugin 
 
 * Camera | https://ionicframework.com/docs/native/camera/
@@ -229,4 +239,5 @@ https://blog.ionicframework.com/announcing-capacitor-1-0/
 
 ## Resource
 
+https://github.com/ionic-team/capacitor/issues/767#issuecomment-415481452
 
