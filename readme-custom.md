@@ -241,3 +241,10 @@ https://blog.ionicframework.com/announcing-capacitor-1-0/
 
 https://github.com/ionic-team/capacitor/issues/767#issuecomment-415481452
 
+# generate module
+
+ionic generate module filesystem
+
+ionic generate component filesystem
+
+

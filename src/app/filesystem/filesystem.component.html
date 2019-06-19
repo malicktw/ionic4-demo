@@ -1,0 +1,41 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Filesystem</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-button (click)="mkdir()">
+        mkdir
+    </ion-button>
+    <ion-button (click)="rmdir()">
+        rmdir
+    </ion-button>
+    <ion-button (click)="readdir()">
+        readdir
+    </ion-button>
+    <ion-button (click)="listDir()">
+        listdir
+    </ion-button>
+    <ion-button (click)="fileWrite()">
+        Write
+    </ion-button>
+    <ion-button (click)="fileRead()">
+        Read
+    </ion-button>
+    <ion-button (click)="fileAppend()">
+        Append
+    </ion-button>
+    <ion-button (click)="fileDelete()">
+        Delete
+    </ion-button>
+    <ion-button (click)="stat()">
+        Stat
+    </ion-button>
+    <ion-button (click)="getUri()">
+        Get URI
+    </ion-button>
+    <ion-button (click)="directoryTest()">
+        Directory Test
+    </ion-button>
+</ion-content>

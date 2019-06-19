@@ -35,6 +35,15 @@ const routes: Routes = [
         ]
       },
       {
+        path: 'filesystem',
+        children: [
+          {
+            path: '',
+            loadChildren: '../filesystem/filesystem.module#FilesystemModule'
+          }
+        ]
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'
