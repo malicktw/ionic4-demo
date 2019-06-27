@@ -199,10 +199,15 @@ npx cap sync
 ### Run on device with capacitor
 https://ionicframework.com/docs/building/android#running-with-capacitor
 
+first time
 ```
 ionic build
-npx cap copy android
 npx cap open android
+```
+
+on each update
+```
+ionic build & npx cap copy android
 ```
 
 In Android Studio, click the Run button and then select the target simulator or device.
@@ -244,7 +249,11 @@ https://github.com/ionic-team/capacitor/issues/767#issuecomment-415481452
 # generate module
 
 ionic generate module filesystem
-
 ionic generate component filesystem
+
+
+# TODO
+
+
 
 
